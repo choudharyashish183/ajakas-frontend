@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5001';
+const API_BASE_URL = "https://ajakas-backend-1.onrender.com";
 
 export const fetchUsers = async () => axios.get(`${API_BASE_URL}/users`);
 export const createUser = async (user) => axios.post(`${API_BASE_URL}/users`, user);
